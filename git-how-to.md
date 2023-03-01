@@ -1,11 +1,11 @@
-#создать ключ
+# создать ключ
 
 git keyden -t ed25519 -C "*usel.email*"
 
-#добавить ключ в аккфунт на Github
+# добавить ключ в аккфунт на Github
 
 settings -> SSH and GPG keys -> New SSH key
 
-#клонировать репозиторий
+# клонировать репозиторий
 
 git clone *URL*
