@@ -1,6 +1,10 @@
 # создать ключ
 
-git keyden -t ed25519 -C "*usel.email*"
+ssh-keygen -t ed25519 -C "*usel.email*"
+
+# Добавить ключ в SSH-agent
+
+ssh-add ./my\_key
 
 # добавить ключ в аккфунт на Github
 
